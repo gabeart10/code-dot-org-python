@@ -22,8 +22,11 @@ def draw_triangle():
         z.turn_right(120)
 
 def draw_house():
-    pass
+    draw_square()
+    z.fd(100)
+    z.rt(30)
+    draw_triangle()
 
-# ???
+draw_house()
 
 z.check()

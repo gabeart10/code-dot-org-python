@@ -13,6 +13,11 @@ a = artist
 
 artist.color = 'red'
 
+for count in range(4):
+    a.fd()
+    a.rt()
+
+
 # ???
 
 artist.check()

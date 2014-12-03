@@ -19,7 +19,7 @@ def draw_circle(step):
         z.turn_right(6)
     z.speed = saved_speed
 
-for count in range(10):
+for count in range(11):
     z.color = z.random_color()
     draw_circle(6)
     z.turn_right(36)

@@ -18,7 +18,7 @@ def draw_tree(depth,branches):
         z.move_forward(7*depth)
         z.turn_left(130)
         for count in range(branches):
-            z.turn_right(180/branches)
+            z.turn_right(18/branches)
             draw_tree(depth-1,branches)
         z.turn_left(50)
         z.jump_backward(7*depth)

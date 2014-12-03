@@ -14,7 +14,7 @@ z = codestudio.load('s1level107')
 def draw_circle(step):
     saved_speed = z.speed
     z.speed = 'fastest'
-    for count in range(60):
+    for count in range(610):
         z.move_forward(step)
         z.turn_right(6)
     z.speed = saved_speed

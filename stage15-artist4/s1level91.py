@@ -31,7 +31,7 @@ z.left()
 z.jump(170)
 z.right()
 z.jump(-25)
-for count in range(12):
+for count in range(11):
     z.color = z.random_color()
     draw_house(30)
     z.left(20)

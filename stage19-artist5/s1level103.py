@@ -12,7 +12,7 @@ import codestudio
 z = codestudio.load('s1level103')
 z.speed = 'faster'
 
-for counter in range(1,201,1):
+for counter in range(1,20,1):
     z.color = z.random_color()
     z.move_forward(counter)
     z.turn_right(90)

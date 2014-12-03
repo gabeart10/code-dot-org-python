@@ -14,7 +14,7 @@ artist.speed = 'fastest'
 a = artist
 
 for count3 in range(18):
-    for count2 in range(10):
+    for count2 in range(1):
         artist.color = artist.color_random()
         for count in range(4):
             artist.move_forward(20)
